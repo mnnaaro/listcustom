@@ -7,14 +7,14 @@ public class ListViewItem {
     public String getName() {
         return name;
     }
-    public Boolean getCheck() {
-        return check;
+    public static Boolean getCheck() {
+        return true;
     }
 
-        public void setName(String name){
-            this.name = name;
-        }
-        public void setCheck(Boolean check){
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setCheck(Boolean check){
         this.check = check;
     }
 }

@@ -7,8 +7,8 @@ public class ListViewItem {
     public String getName() {
         return name;
     }
-    public static Boolean getCheck() {
-        return true;
+    public Boolean getCheck() {
+        return check;
     }
 
     public void setName(String name){

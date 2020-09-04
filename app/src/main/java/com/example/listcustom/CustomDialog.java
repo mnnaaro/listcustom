@@ -54,9 +54,7 @@ public class CustomDialog {
             public void onClick(View view) {
                 // '확인' 버튼 클릭시 메인 액티비티에서 설정한 main_label에
                 // 커스텀 다이얼로그에서 입력한 메시지를 대입한다.
-                //main_label.setText(message.getText().toString());
                 Toast.makeText(context, "\"" +  message.getText().toString() + "\" 을 입력하였습니다.", Toast.LENGTH_SHORT).show();
-                //String temp = message.getText().toString();
                 adapter.addItem(message.getText().toString(),true);
                 adapter.notifyDataSetChanged();
 
